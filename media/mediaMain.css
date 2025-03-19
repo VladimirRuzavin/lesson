@@ -1,0 +1,33 @@
+@media  (max-width: 768px) {
+   .header-item {
+    display: none;
+   }
+
+   .burger {
+    display: block;
+   }
+
+   .catalog-card {
+      flex-basis: calc(50% - 5px);
+   }
+
+   .catalog-card:not(:nth-child(4n)) {
+      margin-right: 0px;
+   }
+
+   .catalog-card:nth-child(odd) {
+      margin-right: 10px;
+    }
+
+    .pricing-cards {
+      flex-direction: column;
+    }
+
+    .footer-logo {
+      flex-basis: 100%;
+    }
+
+    .footer-item {
+      flex-basis: calc(50% - 5px);
+    }
+  } 

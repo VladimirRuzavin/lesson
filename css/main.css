@@ -1,0 +1,292 @@
+
+
+.header {
+   padding: 24px 0;
+}
+
+.burger {
+    display: none;
+}
+
+.burger-icon {
+    height: 40px;
+}
+.hero {
+   background: url("/img/sander-traa-csucSuxn1gY-unsplash.jpg");
+   height: 500px;
+   display: flex;
+   justify-content: center;
+}
+
+.hero-wrap {
+   display: flex;
+   /* justify-content: center; */
+   flex-direction: column;
+   align-items: center;
+}
+
+.h1 {
+
+}
+
+.h2{
+   font-size: 30px;
+}
+
+
+.buy-botton {
+    display: flex;
+    padding: 20px;
+}
+
+.learn-more {
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    background-color: #0071e3;
+    border: 1px solid  #0071e3;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+}
+
+.buy {
+    font-size: 20px;
+    background-color: black;
+    color: #0071e3;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 83px;
+    height: 40px;
+}
+
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo img {
+    width: 50px;
+    height: 50px;
+}
+                
+.header-item a {
+    color: rgb(156, 153, 153);
+    margin: 10px;
+    
+}
+
+.pricing {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+.pricing-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing-wrap-title {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.pricing-wrap-caption {
+    margin-top: 15px;
+    margin-bottom: 40px;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: gray;
+}
+
+.pricing-cards {
+    display: flex;
+}
+
+.pricing-hobby {
+    padding: 40px;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+.pricing-hobby-title {
+    color: green;
+    font-size: 16px;
+}
+
+.pricing-price-hobby {
+    font-size: 48px;
+    font-weight: 600;
+    margin: 16px 0 0;
+} 
+
+.pricing-hobby-subtitle {
+    font-size: 16px;
+    color: gray;
+    margin: 24px 0 0;
+}
+
+.pricing-hobby-advantage {
+    font-size: 14px;
+    color: gray;
+    margin: 40px 0 0;
+}
+
+.pricing-hobby-advantage::before {
+    content: "✅";
+}
+
+.pricing-hobby-button {
+    text-align: center;
+    width: 100%;
+    color: green;
+    margin: 40px 0 0;
+    padding: 10px 14px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: white;
+    transition: all 0.4s ease-in-out;
+}
+
+.pricing-hobby-button:hover {
+    color: white;
+    background-color: green;
+    font-size: 24px;
+}
+
+
+
+.pricing-enterprise {
+    padding: 40px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    background-color: black;
+}
+
+.pricing-enterprise-title {
+    color: green;
+    font-size: 16px;
+}
+
+.pricing-price-enterprise {
+    font-size: 48px;
+    font-weight: 600;
+    margin: 16px 0 0;
+    color: white;
+}
+
+.pricing-enterprise-subtitle {
+    color: gray;
+    margin: 24px 0 0;
+}
+
+.pricing-enterprise-advantage {
+    color: gray;
+    margin: 40px 0 0;
+}
+
+.pricing-enterprise-advantage::before {
+    content: "✅";
+}
+
+.pricing-enterprice-button {
+    text-align: center;
+    width: 100%;
+    color: white;
+    margin: 40px 0 0;
+    padding: 10px 14px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: green;
+}
+
+.catalog {
+    margin-top: 120px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column; 
+}
+
+
+
+.catalog-card {
+   flex-basis: calc(50% - 5px);
+   flex-grow: 0;
+}
+
+.catalog-card:not(:nth-child(4n)) {
+    margin-right: 10px;
+  }
+
+.catalog-card__img-wrap {
+    
+}
+
+.catalog-card__img {
+   width: 100%;
+   height: auto;
+}
+
+.catalog-card__name {
+   font-size: 16px;
+   font-weight: 300;
+   margin-top: 20px;
+}
+
+
+.catalog-card__description {
+color: gray;
+margin-top: 12px;
+}
+
+
+.catalog-card__price {
+   font-size: 16px;
+   font-weight: 600;
+   margin-top: 20px;
+}
+
+.title {
+    font-family: sans-serif;
+    font-size: 60px;
+    color: white;
+}
+
+.footer {
+   
+}
+   
+
+.footer-wrap  {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-logo img{
+    width: 50px;
+    height: 50px;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-item p {
+    font-size: 21px;
+}
+
+.footer-item a {
+    color: rgb(163, 161, 161);
+    padding-top: 10px;
+}

@@ -1,0 +1,35 @@
+.container {
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+
+
+.h1 {
+    font-size: 56px;
+    font-weight: 600;
+    margin: 20px;
+}
+
+.h2 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
