@@ -216,6 +216,12 @@
     flex-direction: column; 
 }
 
+.catalog-a {
+    color: black;
+    font-size: 23px;
+    padding-bottom: 10px;
+}
+
 
 
 .catalog-card {

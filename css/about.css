@@ -160,10 +160,84 @@
     padding-right: 10px;
 }
 
-.key-bottom {
-    padding-top: 10px;
+.h3 {
+   padding-top: 10px;
+}
+
+.subtitle p {
+    color: grey;
+    padding-top: 7px;
 }
 
 .key-bottom {
-    
+    padding-top: 20px;
+    text-align: center;
+}
+
+.key-button {
+    width: 280px;
+    height: 38px;
+    border: 1px solid  grey;
+    border-radius: 20px;
+    background: grey;
+    color: black;
+}
+
+.footer {
+    margin-top: 100px;
+    display: flex;
+}
+
+.footer-wrap  {
+    width: 650px;;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-logo img{
+    width: 50px;
+    height: 50px;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-item a {
+    padding-top: 10px;
+    color: grey;
+}
+
+.footer-registration-wrap p {
+    color: grey;
+    padding-top: 10px;
+}
+
+.footer-buttom {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.sign-up {
+    border: 1px solid #0071e3;
+    background-color: #0071e3;
+    border-radius: 20px;
+    width: 92px;
+    height: 42px;
+}
+
+
+
+
+
+
+
+
+
+.footer-registration {
+    display: flex;
+    justify-content: flex-end;
 }
