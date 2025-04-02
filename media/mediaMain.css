@@ -35,13 +35,9 @@
       flex-direction: column;
     }
 
-    .menu {
-      flex-basis: calc(50% - 5px);
-    }
+    
 
-    .menu:not(:nth-child(4n)) {
-      margin-right: 0px;
-    }
+    
 
     
   } 
