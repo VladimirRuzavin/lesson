@@ -157,18 +157,24 @@
     padding-top: 60px;
 }
 
-.menu {
-   padding-top: 20px;
-}
 
 .customers-menu-wrap {
+    padding-top: 20px;
     display: flex;
+    flex-wrap: wrap;
 }
 
+.customers-menu-card {
+    flex-basis: calc(25% - 15px);
+    flex-grow: 0;
+}
+
+ .customers-menu-card:not(:nth-child(4n)) {
+    margin-right: 20px;
+} 
+
 .customers-menu-img {
-    width: 300px;
-    height: 300px;
-    padding-right: 10px;
+    width: 100%;
 }
 
 .h3 {
@@ -181,18 +187,19 @@
 }
 
 .key-bottom {
+    width: 100px;
     padding-top: 20px;
     text-align: center;
 }
 
-.key-button {
+/* .key-button {
     width: 280px;
     height: 38px;
     border: 1px solid  grey;
     border-radius: 20px;
     background: grey;
     color: black;
-}
+} */
 
 .footer {
     margin-top: 100px;
