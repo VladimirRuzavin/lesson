@@ -46,11 +46,19 @@
   .customers-menu-card:nth-child(odd) {
     margin-right: 20px;
   }
-    
-
-    
-
-    
   } 
 
+  @media (max-width: 400px) {
+    .catalog-card {
+      flex-basis: 100%  ;
+      
+    }
+
+    .catalog-card:nth-child(odd) {
+      margin-right: 0px;
+    }
+    
+    
+    
+  }
   
