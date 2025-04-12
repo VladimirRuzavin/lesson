@@ -31,6 +31,10 @@
       flex-basis: calc(50% - 5px);
     }
 
+    .footer-item-list {
+      margin-top: 20px;
+    }
+
     .product-card {
       flex-direction: column;
     }
@@ -46,6 +50,19 @@
   .customers-menu-card:nth-child(odd) {
     margin-right: 20px;
   }
+
+  .footer-logo {
+    width: 100%;
+  }
+
+  .footer-item-list {
+    width: 100%;
+    text-align: center;
+  }
+
+  
+
+  
   } 
 
   @media (max-width: 400px) {
